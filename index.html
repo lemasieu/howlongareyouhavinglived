@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bạn đã sống bao lâu rồi</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <h1>Tính tổng thời gian bạn đã và đang sống</h1>
+    <p>Nhập ngày sinh của bạn:</p>
+    <input type="date" id="dob-date" max="9999-12-31">
+    <br>
+    <p>Nhập giờ sinh (không bắt buộc):</p>
+    <input type="time" id="dob-time">
+    <br>
+    <button onclick="calculateAge()">Tính</button>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>

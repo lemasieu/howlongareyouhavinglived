@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+    width: 90%; /* Chiếm 90% chiều rộng */
+    max-width: 400px; /* Không lớn hơn 400px */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 90%; /* Chiếm 90% chiều rộng */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left; /* Căn lề trái cho kết quả */
+}
+
+.output {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* Định dạng responsive cho màn hình nhỏ */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    input, button {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .output {
+        font-size: 0.9rem;
+    }
+}
